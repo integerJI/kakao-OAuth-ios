@@ -1,14 +1,10 @@
-//
-//  oauthApp.swift
-//  oauth
-//
-//  Created by 지정수/서비스개발팀 on 7/29/24.
-//
-
 import SwiftUI
 
 @main
 struct oauthApp: App {
+    // AppDelegate 연결
+    @UIApplicationDelegateAdaptor(AppDelegate.self) var appDelegate
+
     var body: some Scene {
         WindowGroup {
             ContentView()
